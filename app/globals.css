@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --fg-primary: #2d2e32;
+  --fg-secondary: #767676;
+  --bg-primary: #f9f9f9;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fg-primary: #f9f9f9;
+    --fg-secondary: #a3a3a3;
+    --bg-primary: #2d2e32;
+  }
+}
+
+body {
+  color: var(--fg-primary);
+  font-family: var(--font-poppins);
+  background: var(--bg-primary);
+}
