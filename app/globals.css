@@ -23,3 +23,7 @@ body {
   font-family: var(--font-poppins);
   background: var(--bg-primary);
 }
+
+.font-mulish {
+  font-family: var(--font-mulish);
+}

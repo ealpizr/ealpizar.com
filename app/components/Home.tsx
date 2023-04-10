@@ -1,7 +1,33 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
-    <main className={`flex min-h-[200vh] flex-col items-center justify-center`}>
-      <h1 className="text-3xl font-bold">ealpizar.com</h1>
-    </main>
+    <section className="h-full flex flex-col items-center justify-center pb-32">
+      <div className="w-full max-w-6xl flex items-center justify-between gap-10">
+        <main className="flex flex-shrink-0 max-w-[480px] flex-col gap-12">
+          <div className="flex flex-col text-5xl w-fit">
+            <p>Hi there, my name’s</p>
+            <div className="flex items-center gap-3">
+              <h1 className="font-bold">Enrique Alpízar</h1>
+              <div className="relative aspect-square h-12">
+                <Image fill alt="Waving Hand Sign" src="/waving-emoji.png" />
+              </div>
+            </div>
+          </div>
+          <h2 className="text-2xl text-[var(--fg-secondary)] font-mulish">
+            I'm a self-taught Full-Stack Web Developer based in Costa Rica. 📍
+          </h2>
+          <div className="flex gap-3">
+            <div className="w-8 h-8 bg-black rounded-full"></div>
+            <div className="w-8 h-8 bg-black  rounded-full"></div>
+            <div className="w-8 h-8 bg-black  rounded-full"></div>
+            <div className="w-8 h-8 bg-black  rounded-full"></div>
+          </div>
+        </main>
+        <div className="relative aspect-square w-full max-w-[480px]">
+          <Image fill alt="A placeholder image" src="/placeholder.svg" />
+        </div>
+      </div>
+    </section>
   );
 }
