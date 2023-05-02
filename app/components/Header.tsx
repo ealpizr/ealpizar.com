@@ -20,8 +20,8 @@ const Header = () => {
   return (
     // If we have many conditional classes in the future, we could use the 'classnames' library.
     <header
-      className={`flex items-center justify-between py-6 px-10 sticky top-0 transition-all ${
-        scrolled ? "bg-white dark:bg-[#1d1d20] shadow" : ""
+      className={`flex items-center justify-between py-6 px-10 fixed top-0 z-50 w-full transition-all h-[var(--header-height)] ${
+        scrolled ? "bg-white dark:bg-[#1d1d20] shadow" : "bg-transparent"
       }`}
     >
       <h2 className="text-xl font-bold">ealpizar.com</h2>

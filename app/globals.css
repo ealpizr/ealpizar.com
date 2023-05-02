@@ -3,9 +3,12 @@
 @tailwind utilities;
 
 :root {
+  --header-height: 5rem;
+
   --fg-primary: #2d2e32;
   --fg-secondary: #767676;
   --bg-primary: #f9f9f9;
+  --bg-secondary: #f3f3f3;
   --fg-accent: #147efb;
 }
 
@@ -14,6 +17,7 @@
     --fg-primary: #f9f9f9;
     --fg-secondary: #a3a3a3;
     --bg-primary: #2d2e32;
+    --bg-secondary: #37383d;
     --fg-accent: #00d7ff;
   }
 }
