@@ -62,7 +62,9 @@ function Model() {
   );
 }
 
-export default () => {
+// Change this to a named function after Next.js fixes issue 47704
+// (see https://github.com/vercel/next.js/issues/47704)
+const IBM3DModel = () => {
   return (
     <Canvas camera={{ position: [25, 25, -25], fov: 25 }}>
       <OrbitControls enableZoom={false} />
@@ -77,3 +79,5 @@ export default () => {
     </Canvas>
   );
 };
+
+export default IBM3DModel;
