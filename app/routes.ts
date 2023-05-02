@@ -6,6 +6,6 @@ export type Route = {
 export const routes: Route[] = [
   { displayName: "Home", href: "#home" },
   { displayName: "About", href: "#about" },
-  { displayName: "Projects", href: "#projects" },
-  { displayName: "Blog", href: "/blog" },
+  { displayName: "Projects", href: "#comingSoon" },
+  { displayName: "Blog", href: "#comingSoon" },
 ];
