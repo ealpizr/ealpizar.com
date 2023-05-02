@@ -30,9 +30,9 @@ function Model() {
     const t = state.clock.getElapsedTime();
     if (ref.current) {
       ref.current.rotation.set(
-        Math.cos(t / 4) / 8,
-        Math.sin(t / 3) / 4,
-        0.15 + Math.sin(t / 2) / 8
+        Math.cos(t / 4) / 12,
+        0,
+        0.15 + Math.sin(t / 3) / 12
       );
       ref.current.position.y = (0.5 + Math.cos(t / 2)) / 1;
     }
@@ -64,7 +64,7 @@ function Model() {
 
 export default () => {
   return (
-    <Canvas camera={{ position: [20, 20, -20], fov: 25 }}>
+    <Canvas camera={{ position: [25, 25, -25], fov: 25 }}>
       <OrbitControls enableZoom={false} />
       <Stage
         intensity={0.5}
