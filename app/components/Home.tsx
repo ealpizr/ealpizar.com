@@ -1,3 +1,4 @@
+import IBM3DModel from "@components/IBM3DModel";
 import Image from "next/image";
 
 export default function Home() {
@@ -25,8 +26,8 @@ export default function Home() {
             <div className="w-8 h-8 bg-black  rounded-full"></div>
           </div>
         </main>
-        <div className="relative aspect-square w-full max-w-[480px]">
-          <Image fill alt="A placeholder image" src="/placeholder.svg" />
+        <div className="relative w-full aspect-square max-w-[500px]">
+          <IBM3DModel />
         </div>
       </div>
     </section>
