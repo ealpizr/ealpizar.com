@@ -1,5 +1,6 @@
 import DeveloperAnimation from "~/components/developer-animation";
 import Spotlight from "~/components/spotlight";
+import Socials from "./socials";
 
 export default function PersonalSummary() {
   return (
@@ -17,15 +18,16 @@ export default function PersonalSummary() {
                 </h1>
                 <p
                   aria-hidden="true"
-                  className="pb-3 text-3xl md:text-4xl lg:text-5xl inline-block animate-cursor"
+                  className="text-3xl md:text-4xl lg:text-5xl inline-block animate-cursor"
                 >
                   _
                 </p>
               </div>
             </hgroup>
-            <h2 className="font-medium text-xl md:text-2xl">
+            <h2 className="font-medium text-xl md:text-2xl pb-12">
               Software Engineer & Security Enthusiast
             </h2>
+            <Socials />
           </div>
         </div>
 
