@@ -1,4 +1,4 @@
-import { IconProps } from "~/types/Icon";
+import { IconProps } from "~/types/icon";
 
 export default function LinkedinIcon({ className }: IconProps) {
   return (
