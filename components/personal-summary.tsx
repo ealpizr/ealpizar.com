@@ -1,3 +1,4 @@
+import Image from "next/image";
 import DeveloperAnimation from "~/components/developer-animation";
 import Spotlight from "~/components/spotlight";
 import Socials from "./socials";
@@ -36,7 +37,7 @@ export default function PersonalSummary() {
             className="absolute z-10 w-96 h-96 lg:w-[31.25rem] lg:h-[31.25rem]"
             aria-label="animated illustration of a software developer floating in the air"
           >
-            <img
+            <Image
               id="fallback-developer-svg"
               src="/assets/developer.svg"
               alt="animated illustration of a software developer floating in the air"
