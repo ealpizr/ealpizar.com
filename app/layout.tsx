@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "Enrique Alpízar | Software Engineer",
   description:
     "Software engineer with a passion for cybersecurity and ethical hacking.",
+  alternates: {
+    canonical: "https://ealpizar.com",
+  },
 };
 
 export default function RootLayout({
