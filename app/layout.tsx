@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://ealpizar.com",
   },
+  other: {
+    "google-site-verification": "hHu-3rCyTMHzLSKUekcgc81CVoZ6VUweVeNEvFI-7D0",
+  },
 };
 
 export default function RootLayout({
